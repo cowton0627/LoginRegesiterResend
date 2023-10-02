@@ -23,8 +23,6 @@ class WelcomeViewController: UIViewController {
     }
     
 
-    
-
 }
 
 extension WelcomeViewController {

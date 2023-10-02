@@ -19,10 +19,6 @@ class ViewController: UIViewController {
         if let vc = segue.destination as? LoginViewController {
             vc.resendVerifyLabelEnable = resendVerifyLabelEnabled
         }
-        
-        if let vc = segue.destination as? WelcomeViewController {
-            vc.delegate = self
-        }
     }
     
     override func viewDidLoad() {
